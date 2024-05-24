@@ -81,12 +81,13 @@
       }
     }
     button {
-      padding: 15px;
+      padding: 10px;
       background-color: rgba(230, 74, 105, 0.553);
       color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      margin-top: -17px;
 
       &:hover {
         background-color: rgba(220, 20, 60, 0.796);
@@ -94,7 +95,10 @@
 
       &.logout {
         padding: 10px;
-        background-color: #1a73e8;
+        background-color: #40916c;
+        &:hover {
+          background-color: #40bb67;
+        }
       }
     }
   }

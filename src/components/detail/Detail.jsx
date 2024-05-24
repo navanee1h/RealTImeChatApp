@@ -6,7 +6,7 @@ const Detail = () => {
       <div className="user">
         <img src="./avatar.png" alt="" />
         <h2>jane Doe</h2>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <h3 className="text-lg bg">Lorem ipsum dolor sit amet</h3>
       </div>
       <div className="info">
         <div className="option">
@@ -23,56 +23,40 @@ const Detail = () => {
         </div>
         <div className="option">
           <div className="title">
-            <span>Shared Photos</span>
+            <span>Shared photos</span>
             <img src="./arrowDown.png" alt="" />
           </div>
           <div className="photos">
             <div className="photoItem">
               <div className="photoDetail">
                 <img
-                  src="https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="https://images.pexels.com/photos/7381200/pexels-photo-7381200.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
                   alt=""
                 />
                 <span>photo_2024_2.png</span>
               </div>
+              <img src="./download.png" alt="" className="icon" />
             </div>
-            <img src="./download.png" alt="" />
-          </div>
-          <div className="photos">
             <div className="photoItem">
               <div className="photoDetail">
                 <img
-                  src="https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="https://images.pexels.com/photos/7381200/pexels-photo-7381200.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
                   alt=""
                 />
                 <span>photo_2024_2.png</span>
               </div>
+              <img src="./download.png" alt="" className="icon" />
             </div>
-            <img src="./download.png" alt="" />
-          </div>
-          <div className="photos">
             <div className="photoItem">
               <div className="photoDetail">
                 <img
-                  src="https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="https://images.pexels.com/photos/7381200/pexels-photo-7381200.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
                   alt=""
                 />
                 <span>photo_2024_2.png</span>
               </div>
+              <img src="./download.png" alt="" className="icon" />
             </div>
-            <img src="./download.png" alt="" />
-          </div>
-          <div className="photos">
-            <div className="photoItem">
-              <div className="photoDetail">
-                <img
-                  src="https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt=""
-                />
-                <span>photo_2024_2.png</span>
-              </div>
-            </div>
-            <img src="./download.png" alt="" />
           </div>
         </div>
         <div className="option">
@@ -82,6 +66,7 @@ const Detail = () => {
           </div>
         </div>
         <button>Block User</button>
+        <button className="logout">Logout</button>
       </div>
     </div>
   );
